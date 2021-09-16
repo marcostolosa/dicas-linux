@@ -1,0 +1,612 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "dicas linux",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "quero uma ajuda",
+            "preciso de ajuda",
+            "quero ajuda",
+            "ajuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "NextPageIntent",
+          "slots": [],
+          "samples": [
+            "dicas",
+            "próximos",
+            "próximo",
+            "quero as próximas dicas",
+            "proxima",
+            "proximas",
+            "próxima dica",
+            "próximas dicas ",
+            "quero a próxima",
+            "quero as próximas",
+            "próxima",
+            "próximas"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "CommandCPIntent",
+          "slots": [],
+          "samples": [
+            "O que é o comando cp",
+            "Me fala sobre o comando cp",
+            "fala sobre o comando cp",
+            "fale sobre o comando cp",
+            "Me fale sobre o comando cp",
+            "O que o comando cp faz",
+            "O que faz  o comando cp",
+            "cp",
+            "Quero saber sobre o comando cp",
+            "Comando cp"
+          ]
+        },
+        {
+          "name": "CommandTOPIntent",
+          "slots": [],
+          "samples": [
+            "O que é o comando top",
+            "Comando top",
+            "Quero saber sobre o comando top",
+            "top",
+            "O que faz  o comando top",
+            "O que o comando top faz",
+            "Me fale sobre o comando top",
+            "fale sobre o comando top",
+            "fala sobre o comando top",
+            "Me fala sobre o comando top"
+          ]
+        },
+        {
+          "name": "CommandGREPIntent",
+          "slots": [],
+          "samples": [
+            "O que é o comando grep",
+            "Comando grep",
+            "Quero saber sobre o comando grep",
+            "grep",
+            "O que faz  o comando grep",
+            "O que o comando grep faz",
+            "Me fale sobre o comando grep",
+            "fale sobre o comando grep",
+            "fala sobre o comando grep",
+            "Me fala sobre o comando grep"
+          ]
+        },
+        {
+          "name": "CommandLSIntent",
+          "slots": [],
+          "samples": [
+            "O que é o comando ls",
+            "Me fala sobre o comando ls",
+            "Fala sobre o comando ls",
+            "Fale sobre o comando ls",
+            "Me fale sobre o comando ls",
+            "O que o comando ls faz",
+            "O que faz o comando ls",
+            "ls",
+            "Quero saber sobre o comando ls",
+            "Comando ls"
+          ]
+        },
+        {
+          "name": "CommandDFIntent",
+          "slots": [],
+          "samples": [
+            "O que é o comando df",
+            "Me fala sobre o comando df",
+            "Fala sobre o comando df",
+            "Fale sobre o comando df",
+            "Me fale sobre o comando df",
+            "O que o comando df faz",
+            "O que faz o comando df",
+            "df",
+            "Quero saber sobre o comando df",
+            "Comando df"
+          ]
+        },
+        {
+          "name": "CommandMVIntent",
+          "slots": [],
+          "samples": [
+            "O que é o comando mv",
+            "Me fala sobre o comando mv",
+            "Fala sobre o comando mv",
+            "Fale sobre o comando mv",
+            "Me fale sobre o comando mv",
+            "O que o comando mv faz",
+            "O que faz o comando mv",
+            "mv",
+            "Quero saber sobre o comando mv",
+            "Comando mv"
+          ]
+        },
+        {
+          "name": "CommandCDIntent",
+          "slots": [],
+          "samples": [
+            "O que é o comando cd",
+            "Comando cd",
+            "Quero saber sobre o comando cd",
+            "cd",
+            "O que faz o comando cd",
+            "O que o comando cd faz",
+            "Me fala sobre o comando cd",
+            "Fale sobre o comando cd",
+            "Fala sobre o comando cd",
+            "Me fale sobre o comando cd"
+          ]
+        },
+        {
+          "name": "CommandRMIntent",
+          "slots": [],
+          "samples": [
+            "Comando rm",
+            "Quero saber sobre o comando rm",
+            "rm",
+            "O que faz o comando rm",
+            "O que o comando rm faz",
+            "Me fale sobre o comando rm",
+            "Fale sobre o comando rm",
+            "Fala sobre o comando rm",
+            "Me fala sobre o comando rm",
+            "O que é o comando rm"
+          ]
+        },
+        {
+          "name": "CommandCATIntent",
+          "slots": [],
+          "samples": [
+            "Comando cat",
+            "Quero saber sobre o comando cat",
+            "cat",
+            "O que faz  o comando cat",
+            "O que o comando cat faz",
+            "Me fale sobre o comando cat",
+            "Fale sobre o comando cat",
+            "Fala sobre o comando cat",
+            "Me fala sobre o comando cat",
+            "O que é o comando cat"
+          ]
+        },
+        {
+          "name": "CommandWIntent",
+          "slots": [],
+          "samples": [
+            "Comando w",
+            "Quero saber sobre o comando w",
+            "w",
+            "O que faz o comando w",
+            "O que o comando cat w",
+            "Me fale sobre o comando w",
+            "Fale sobre o comando w",
+            "Fala sobre o comando w",
+            "Me fala sobre o comando w",
+            "O que é o comando w"
+          ]
+        },
+        {
+          "name": "CommandMKDIRIntent",
+          "slots": [],
+          "samples": [
+            "O que é o comando mkdir",
+            "Comando mkdir",
+            "Quero saber sobre o comando mkdir",
+            "mkdir",
+            "O que faz o comando mkdir",
+            "Me fale sobre o comando mkdir",
+            "Fale sobre o comando mkdir",
+            "Fala sobre o comando mkdir",
+            "Me fala sobre o comando mkdir",
+            "O que o comando mkdir faz"
+          ]
+        },
+        {
+          "name": "CommandLOGOUTIntent",
+          "slots": [],
+          "samples": [
+            "Comando logout",
+            "Quero saber sobre o comando logout",
+            "logout",
+            "O que faz o comando logout",
+            "O que o comando logout faz",
+            "Me fale sobre o comando logout",
+            "Fale sobre o comando logout",
+            "Fala sobre o comando logout",
+            "Me fala sobre o comando logout",
+            "O que é o comando logout"
+          ]
+        },
+        {
+          "name": "CommandPASSWDIntent",
+          "slots": [],
+          "samples": [
+            "Comando passwd",
+            "Quero saber sobre o comando passwd",
+            "passwd",
+            "O que faz o comando passwd",
+            "O que o comando passwd faz",
+            "Me fale sobre o comando passwd",
+            "Fale sobre o comando passwd",
+            "Fala sobre o comando passwd",
+            "Me fala sobre o comando passwd",
+            "O que é o comando passwd"
+          ]
+        },
+        {
+          "name": "CommandSSHIntent",
+          "slots": [],
+          "samples": [
+            "Comando ssh",
+            "Quero saber sobre o comando ssh",
+            "ssh",
+            "O que faz o comando ssh",
+            "O que o comando ssh faz",
+            "Me fale sobre o comando ssh",
+            "Fale sobre o comando ssh",
+            "Fala sobre o comando ssh",
+            "Me fala sobre o comando ssh",
+            "O que é o comando ssh"
+          ]
+        },
+        {
+          "name": "CommandCHMODIntent",
+          "slots": [],
+          "samples": [
+            "chmod",
+            "Comando chmod",
+            "Quero saber sobre o comando chmod",
+            "O que faz o comando chmod",
+            "O que o comando chmod faz",
+            "Me fale sobre o comando chmod",
+            "Fale sobre o comando chmod",
+            "Fala sobre o comando chmod",
+            "Me fala sobre o comando chmod",
+            "O que é o comando chmod"
+          ]
+        },
+        {
+          "name": "CommandCHOWNIntent",
+          "slots": [],
+          "samples": [
+            "Comando chown",
+            "Quero saber sobre o comando chown",
+            "chown",
+            "O que faz o comando chown",
+            "O que o comando chown faz",
+            "Me fale sobre o comando chown",
+            "Fale sobre o comando chown",
+            "Fala sobre o comando chown",
+            "Me fala sobre o comando chown",
+            "O que é o comando chown"
+          ]
+        },
+        {
+          "name": "CommandCMPIntent",
+          "slots": [],
+          "samples": [
+            "Comando cmp",
+            "Quero saber sobre o comando cmp",
+            "cmp",
+            "O que faz o comando cmp",
+            "O que o comando cmp faz",
+            "Me fale sobre o comando cmp",
+            "Fale sobre o comando cmp",
+            "Fala sobre o comando cmp",
+            "Me fala sobre o comando cmp",
+            "O que é o comando cmp"
+          ]
+        },
+        {
+          "name": "CommandLNIntent",
+          "slots": [],
+          "samples": [
+            "Comando ln",
+            "Quero saber sobre o comando ln",
+            "ln",
+            "O que faz o comando ln",
+            "O que o comando ln faz",
+            "Me fale sobre o comando ln",
+            "Fale sobre o comando ln",
+            "Fala sobre o comando ln",
+            "Me fala sobre o comando ln",
+            "O que é o comando ln"
+          ]
+        },
+        {
+          "name": "CommandPINGIntent",
+          "slots": [],
+          "samples": [
+            "Comando píngui",
+            "Quero saber sobre o comando píngui",
+            "píngui",
+            "O que faz o comando píngui",
+            "O que o comando píngui faz",
+            "Me fale sobre o comando píngui",
+            "Fale sobre o comando píngui",
+            "Fala sobre o comando píngui",
+            "Me fala sobre o comando píngui",
+            "O que é o comando píngui"
+          ]
+        },
+        {
+          "name": "CommandDATEIntent",
+          "slots": [],
+          "samples": [
+            "Comando date",
+            "Quero saber sobre o comando date",
+            "date",
+            "O que faz o comando date",
+            "O que o comando date faz",
+            "Me fale sobre o comando date",
+            "Fale sobre o comando date",
+            "Fala sobre o comando date",
+            "Me fala sobre o comando date",
+            "O que é o comando date"
+          ]
+        },
+        {
+          "name": "CommandPWDIntent",
+          "slots": [],
+          "samples": [
+            "Comando pwd",
+            "Quero saber sobre o comando pwd",
+            "O que faz o comando pwd",
+            "O que o comando pwd faz",
+            "Me fale sobre o comando pwd",
+            "Fale sobre o comando pwd",
+            "Fala sobre o comando pwd",
+            "Me fala sobre o comando pwd",
+            "O que é o comando pwd",
+            "pwd"
+          ]
+        },
+        {
+          "name": "CommandKILLIntent",
+          "slots": [],
+          "samples": [
+            "Comando kill",
+            "Quero saber sobre o comando kill",
+            "O que faz o comando kill",
+            "O que o comando kill faz",
+            "Me fale sobre o comando kill",
+            "Fale sobre o comando kill",
+            "Fala sobre o comando kill",
+            "Me fala sobre o comando kill",
+            "O que é o comando kill",
+            "kill"
+          ]
+        },
+        {
+          "name": "CommandMANIntent",
+          "slots": [],
+          "samples": [
+            "Comando man",
+            "Quero saber sobre o comando man",
+            "man",
+            "O que faz  o comando man",
+            "O que o comando man faz",
+            "Me fale sobre o comando man",
+            "fale sobre o comando man",
+            "fala sobre o comando man",
+            "Me fala sobre o comando man",
+            "O que é o comando man"
+          ]
+        },
+        {
+          "name": "CommandINFOIntent",
+          "slots": [],
+          "samples": [
+            "Me fale sobre o comando info",
+            "fale sobre o comando info",
+            "fala sobre o comando info",
+            "Me fala sobre o comando info",
+            "O que é o comando info",
+            "Comando info",
+            "Quero saber sobre o comando info",
+            "info",
+            "O que faz  o comando info",
+            "O que o comando info faz"
+          ]
+        },
+        {
+          "name": "CommandDIFFIntent",
+          "slots": [],
+          "samples": [
+            "Comando diff",
+            "Quero saber sobre o comando diff",
+            "diff",
+            "O que faz  o comando diff",
+            "O que o comando diff faz",
+            "Me fale sobre o comando diff",
+            "fale sobre o comando diff",
+            "fala sobre o comando diff",
+            "Me fala sobre o comando diff",
+            "O que é o comando diff"
+          ]
+        },
+        {
+          "name": "CommandDDIntent",
+          "slots": [],
+          "samples": [
+            "Comando dd",
+            "Quero saber sobre o comando dd",
+            "dd",
+            "O que faz  o comando dd",
+            "O que o comando dd faz",
+            "Me fale sobre o comando dd",
+            "fale sobre o comando dd",
+            "fala sobre o comando dd",
+            "Me fala sobre o comando dd",
+            "O que é o comando dd"
+          ]
+        },
+        {
+          "name": "CommandPSIntent",
+          "slots": [],
+          "samples": [
+            "Me fale sobre o comando ps",
+            "fale sobre o comando ps",
+            "fala sobre o comando ps",
+            "Me fala sobre o comando ps",
+            "O que é o comando ps",
+            "Comando ps",
+            "Quero saber sobre o comando ps",
+            "ps",
+            "O que faz  o comando ps",
+            "O que o comando ps faz"
+          ]
+        },
+        {
+          "name": "CommandJOBSIntent",
+          "slots": [],
+          "samples": [
+            "Comando jobs",
+            "Quero saber sobre o comando jobs",
+            "jobs",
+            "O que faz  o comando jobs",
+            "O que o comando jobs faz",
+            "Me fale sobre o comando jobs",
+            "fale sobre o comando jobs",
+            "fala sobre o comando jobs",
+            "Me fala sobre o comando jobs",
+            "O que é o comando jobs"
+          ]
+        },
+        {
+          "name": "CommandARCHIntent",
+          "slots": [],
+          "samples": [
+            "Me fale sobre o comando arch",
+            "fale sobre o comando arch",
+            "fala sobre o comando arch",
+            "Me fala sobre o comando arch",
+            "O que é o comando arch",
+            "Comando arch",
+            "Quero saber sobre o comando arch",
+            "arch",
+            "O que faz  o comando arch",
+            "O que o comando arch faz"
+          ]
+        },
+        {
+          "name": "CommandLSUSBIntent",
+          "slots": [],
+          "samples": [
+            "Comando lsusb",
+            "Quero saber sobre o comando lsusb",
+            "lsusb",
+            "O que faz  o comando lsusb",
+            "O que o comando lsusb faz",
+            "Me fale sobre o comando lsusb",
+            "fale sobre o comando lsusb",
+            "fala sobre o comando lsusb",
+            "Me fala sobre o comando lsusb",
+            "O que é o comando lsusb"
+          ]
+        },
+        {
+          "name": "CommandWCIntent",
+          "slots": [],
+          "samples": [
+            "Comando wc",
+            "Quero saber sobre o comando wc",
+            "wc",
+            "O que faz  o comando wc",
+            "O que o comando wc faz",
+            "Me fale sobre o comando wc",
+            "fale sobre o comando wc",
+            "fala sobre o comando wc",
+            "Me fala sobre o comando wc",
+            "O que é o comando wc"
+          ]
+        },
+        {
+          "name": "CommandLASTIntent",
+          "slots": [],
+          "samples": [
+            "Me fale sobre o comando last",
+            "fale sobre o comando last",
+            "fala sobre o comando last",
+            "Me fala sobre o comando last",
+            "O que é o comando last",
+            "Comando last",
+            "Quero saber sobre o comando last",
+            "last",
+            "O que faz  o comando last",
+            "O que o comando last faz"
+          ]
+        },
+        {
+          "name": "DistroPrefIntent",
+          "slots": [],
+          "samples": [
+            "Qual é o melhor linux ",
+            "Qual distro é a melhor ",
+            "Qual distribuição linux é a melhor ",
+            "Qual distro linux é a melhor ",
+            "Qual a melhor distro",
+            "Qual a melhor distro linux",
+            "Qual a melhor distribuição linux",
+            "Qual é a melhor distribuição linux",
+            "Qual é a melhor distro linux",
+            "Qual é a melhor distro"
+          ]
+        },
+        {
+          "name": "DistroIndicationIntent",
+          "slots": [],
+          "samples": [
+            "dicas linux pode me indicar uma distro",
+            "dicas linux pode me indicar uma distro linux",
+            "dicas linux pode me indicar uma distribuição",
+            "dicas linux pode me indicar uma distribuição linux",
+            "pode me indicar uma distribuição linux",
+            "pode me indicar uma distribuição ",
+            "pode me indicar uma distro linux",
+            "pode me indicar uma distro",
+            "Qual distribuição linux você me indicaria",
+            "Qual distro linux você me indicaria",
+            "Qual distribuição você me indicaria",
+            "Qual distro você me indicaria ",
+            "me indica uma distribuição linux ",
+            "me indica uma distro linux",
+            "me indica uma distribuição",
+            "me indica uma distro",
+            "dicas linux me indica uma distribuição linux",
+            "dicas linux me indica uma distro linux",
+            "dicas linux me indica uma distribuição ",
+            "dicas linux me indica uma distro ",
+            "dicas linux me indique uma distribuição linux",
+            "dicas linux me indique uma distro linux",
+            "dicas linux me indique uma distribuição ",
+            "dicas linux me indique uma distro "
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "66"
+}
